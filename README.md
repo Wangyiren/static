@@ -1,9 +1,14 @@
+
+# 使用前参考文档
+- Spring Cloud[参考资料](doc/Description/spring-cloud.md)
+- Spring Cloud[学习源码](https://github.com/rothschil/spring-cloud.git)
+- 关于微服务模块的[技术选型](doc/Description/Selection.md)
+
 # 用户组织运营平台 UOO
 ## 项目简介
 uoo是采用Spring Cloud微服务化开发平台，具有统一授权、认证后台管理系统，也可以作为后端服务的开发脚手架。代码要求简洁、架构清晰，适合对微服务学习和直接项目中使用。核心技术采用Spring Boot 1.5.15.RELEASE以及Spring Cloud (1.4.5.RELEASE)相关核心组件，当下前端采用Thymeleaf的HTML来开发的，后续准备采用VUE进行二次改造。
 
 ## 架构概述
-
 ### 服务注册发现
 基于Eureka来实现的服务注册与调用，在Spring Cloud中使用Feign, 我们可以做到使用HTTP请求远程服务时能与调用本地方法一样的编码体验，开发者完全感知不到这是远程方法，更感知不到这是个HTTP请求。
 
@@ -52,41 +57,6 @@ uoo是采用Spring Cloud微服务化开发平台，具有统一授权、认证�
 - 环境准备： JDK1.8、Maven3+、IDEA
 - 内存推荐：4G+
 - 下载源码：[git@wongs.xyz:uoo.git](git@wongs.xyz:uoo.git)
-
-## 技术选型
-- 核心框架
-
-| 序号 | 名称 | 版本 |
-| ------ | ------ | ------ |
-| 1 | Spring Boot | 1.5.15.RELEASE |
-| 2 | Spring Cloud | 1.4.5.RELEASE |
-
-- 持久层框架
-
-| 序号 | 名称 | 版本 |
-| ------ | ------ | ------ |
-| 1 | MyBatis | 3.4.6 |
-| 2 | JPA | 1.11.14.RELEASE |
-| 3 | Hibernate Validation | 5.4.2.Final |
-| 4 | Alibaba Druid | 1.1.19 |
-
-- 视图层
-
-| 序号 | 名称 | 版本 |
-| ------ | ------ | ------ |
-| 1 | Spring MVC | 4.3.18 |
-| 2 | Thymeleaf | 3.0.9.RELEASE |
-| 3 | CSS框架-Bootstarp | 3.3 |
-| 4 | JS框架及组件-jQuery | 1.12.4 |
-| 5 | JS框架及组件-layer | 3.1.2 |
-| 6 | JS框架及组件-layui admin | 1.1.0 |
-| 7 | JS框架及组件-zTree | 3.5.37 |
-
-
-## 技术原理概述
-### SpringCloud调用机制
-
-![avatar](https://github.com/rothschil/static/raw/master/images/1-springcloud.jpg)
 
 
 ## 微服务模块化结构
