@@ -3,6 +3,6 @@
 
 ### 逻辑模型
 
- ![avatar](https://github.com/rothschil/static/raw/master/UOO角色权限设计V0.2.jpg)
+ ![avatar](https://github.com/rothschil/static/raw/master/images/UOO角色权限设计V0.2.jpg)
 
 ### 用户管理

@@ -86,7 +86,7 @@ uoo是采用Spring Cloud微服务化开发平台，具有统一授权、认证�
 ## 技术原理概述
 ### SpringCloud调用机制
 
-![avatar](https://github.com/rothschil/static/raw/master/1-springcloud.jpg)
+![avatar](https://github.com/rothschil/static/raw/master/images/1-springcloud.jpg)
 
 
 ## 微服务模块化结构

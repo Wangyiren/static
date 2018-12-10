@@ -7,7 +7,7 @@
 实际开发过程中，开发环境、测试环境、生产环境的配置是不一样的，spring boot定义的规则是允许按照命名方式不同来激活响应的配置文件。
 如在启动过程中，根据 “--spring.profiles.active={自己定义}”，分别激活响应的配置
 
-![avatar](https://github.com/rothschil/static/raw/master/Snipaste_2018-12-06_18-04-13.jpg)
+![avatar](https://github.com/rothschil/static/raw/master/images/Snipaste_2018-12-06_18-04-13.jpg)
 要求 application.yml/application.properties具备多个spring.profiles.active，用以区分环境，案例如下：
 ~~~
 spring:
@@ -57,7 +57,7 @@ server:
 
 #### shell脚本
 
-[spring-boot源码](https://github.com/rothschil/static/raw/master/spring-boot.sh)
+[spring-boot源码](https://github.com/rothschil/static/raw/master/images/spring-boot.sh)
 
 
     sh spring-boot.sh start YOUR_APP_NAME.jar --spring.profiles.active={自己定义}
@@ -99,7 +99,7 @@ function start()
 ### 地址
 测试环境资源有限情况下，每个服务可在每台机器部署一个节点
 
-![avatar](https://github.com/rothschil/static/raw/master/tuop.png)
+![avatar](https://github.com/rothschil/static/raw/master/images/tuop.png)
 
 | 序号 | 地址 | 描述 |
 | ------ | ------ | ------ |
@@ -210,5 +210,5 @@ function start()
 
 ### 详细部署清单
 
-![avatar](https://github.com/rothschil/static/raw/master/Snipaste_2018-12-04_21-22-03.jpg)
+![avatar](https://github.com/rothschil/static/raw/master/images/Snipaste_2018-12-04_21-22-03.jpg)
 
