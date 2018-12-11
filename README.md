@@ -54,6 +54,9 @@ uoo是采用Spring Cloud微服务化开发平台，具有统一授权、认证�
 ### common-system
 详细内容请参考[common-system说明](https://github.com/rothschil/static/tree/master/doc/Description/common-system.md)
 
+### uoo-gateway
+参考[uoo-gateway说明](https://github.com/rothschil/static/tree/master/doc/Description/uoo-gateway.md)
+
 ## 开发必读
 - 环境准备： JDK1.8、Maven3+、IDEA
 - 内存推荐：4G+
