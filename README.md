@@ -1,9 +1,9 @@
 
 # 使用前参考文档
-- Spring Cloud[参考资料](https://github.com/rothschil/static/tree/master/doc/Description/spring-cloud.md)
-- Spring Cloud[学习源码](https://github.com/rothschil/spring-cloud.git)
-- 关于微服务模块的[技术选型](https://github.com/rothschil/static/tree/master/doc/Description/Selection.md)
-- 关于[人员编码规则说明](https://github.com/rothschil/static/tree/master/doc/Description/Rule.md)
+- [Spring Cloud参考资料](https://github.com/rothschil/static/tree/master/doc/Description/spring-cloud.md)
+- [Spring Cloud学习源码](https://github.com/rothschil/spring-cloud.git)
+- [关于微服务模块的技术选型](https://github.com/rothschil/static/tree/master/doc/Description/Selection.md)
+- [关于人员编码规则说明](https://github.com/rothschil/static/tree/master/doc/Description/Rule.md)
 
 # 用户组织运营平台 UOO
 ## 项目简介
@@ -91,3 +91,6 @@ uoo是采用Spring Cloud微服务化开发平台，具有统一授权、认证�
 |   |   |——auth-web---------------------------------------认证中心维护支撑WEB
 
 ~~~~
+
+## 部署发布
+- [机器部署列表](https://github.com/rothschil/static/tree/master/doc/Description/deploy.md)
