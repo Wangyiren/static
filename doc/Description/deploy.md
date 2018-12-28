@@ -57,7 +57,7 @@ server:
 
 #### shell脚本
 
-[spring-boot源码](https://github.com/rothschil/static/raw/master/images/spring-boot.sh)
+[spring-boot源码](https://github.com/rothschil/static/blob/master/srcipt/spring-boot.sh)
 
 
     sh spring-boot.sh start YOUR_APP_NAME.jar --spring.profiles.active={自己定义}
